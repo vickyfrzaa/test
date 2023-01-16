@@ -1,0 +1,25 @@
+1.	<? Php
+$arr = array(12,9,30,”A”,”M”,99,82,”J”,”N”,”B”);
+Sort($arr);
+
+$clength=count($arr);
+for($x=0;$x<$clength;$x++)
+  {
+  echo $arr[$x];
+  echo ",";
+  }	
+?>
+
+2.	<? Php
+
+?>
+
+3.	<? Php
+$teks = "hello world";
+$huruf = array("h","e","l","l","o","w","o","r","l","d",);
+$result = array_unique($huruf);
+sort($result);
+
+print_r($result);
+
+?>
