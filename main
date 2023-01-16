@@ -11,8 +11,9 @@ for($x=0;$x<$clength;$x++)
 ?>
 
 2.	<? Php
-
+  echo substr_count("polindrom ","ind");
 ?>
+
 
 3.	<? Php
 $teks = "hello world";
